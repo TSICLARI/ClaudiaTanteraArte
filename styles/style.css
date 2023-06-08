@@ -8,6 +8,7 @@
 
 /*HEADER*/
 header {
+  position: absolute;
   width: 100%;
   padding: 20px;
   position: sticky;
