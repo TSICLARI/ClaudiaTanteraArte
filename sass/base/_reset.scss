@@ -1,0 +1,33 @@
+/*generales*/
+*{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+/*HEADER*/
+
+header
+{  
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(56, 53, 53);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*HEADER END*/
+
+/*BODY*/
+
+body
+{
+    color: $font-color;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*BODY END*/
+

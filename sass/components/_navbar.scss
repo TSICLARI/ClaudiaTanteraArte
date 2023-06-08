@@ -1,0 +1,26 @@
+.menu-nav 
+{  
+    /* aca en menu nav tuve que sacar el padding de 20px porque no me funcionaba el align-items*/ 
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* ul nav*/
+ul
+{
+    display: flex;
+}
+
+ul li
+{
+    list-style: none;
+    margin: 0px 6px;
+}
+
+ul li a
+{
+    color: $fontnav-color;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

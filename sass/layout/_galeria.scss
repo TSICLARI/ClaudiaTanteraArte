@@ -1,0 +1,71 @@
+/*Galeria*/
+
+.h1galeria
+{   height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+/*TAMANO FOTOS (TUVE QUE HACER UNA POR UNA PORQUE JUNTAS SE ME ROMPIAN)*/
+.gimg1
+{
+    width: 390px;
+    height: 389px;
+}
+
+.gimg2
+{
+    width: 390px;
+    height: 389px;
+}  
+
+.gimg3
+{
+    width: 390px;
+    height: 389px;
+}
+
+.gimg4
+{
+    width: 390px;
+    height: 389px;
+}
+
+.gimg5
+{
+    width: 390px;
+    height: 389px;
+}
+
+.gimg6
+{
+    width: 390px;
+    height: 389px;
+}
+
+.gimg7
+{
+    width: 390px;
+    height: 389px;
+}
+
+.gimg8
+{
+    width: 390px;
+    height: 389px;
+}
+
+
+.galeria-container
+{   padding-top: 85px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,2fr);
+    justify-items: center;
+    padding-bottom: 45px;
+    grid-column-gap: 1px;
+    grid-row-gap: 20px;
+}

@@ -1,0 +1,188 @@
+/*Importando aspectos generales*/ /*generales*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+* {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*HEADER*/
+header {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(56, 53, 53);
+  display: flex;
+  justify-content: space-between;
+}
+
+/*HEADER END*/
+/*BODY*/
+body {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+/*BODY END*/
+/*Importando components*/
+.menu-nav {
+  /* aca en menu nav tuve que sacar el padding de 20px porque no me funcionaba el align-items*/
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ul nav*/
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin: 0px 6px;
+}
+
+ul li a {
+  color: rgb(223, 215, 215);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/*FOOTER*/
+footer {
+  height: 260px;
+  background-color: rgb(56, 53, 53);
+  border-top: 1px solid black;
+}
+
+.copyr {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footredes {
+  padding-top: 85px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+
+/*FOOTER END*/
+/*Importando layout*/
+/*index*/
+main {
+  background-color: rgb(255, 255, 255);
+}
+
+.foto-bajonav img {
+  width: 100%;
+}
+
+.h1main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.video-container {
+  display: flex;
+  padding-top: 35px;
+  justify-content: center;
+  padding-bottom: 35px;
+}
+
+.videom1 {
+  width: 400px;
+  height: 715px;
+}
+
+.text-princ {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*Galeria*/
+.h1galeria {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+/*TAMANO FOTOS (TUVE QUE HACER UNA POR UNA PORQUE JUNTAS SE ME ROMPIAN)*/
+.gimg1 {
+  width: 390px;
+  height: 389px;
+}
+
+.gimg2 {
+  width: 390px;
+  height: 389px;
+}
+
+.gimg3 {
+  width: 390px;
+  height: 389px;
+}
+
+.gimg4 {
+  width: 390px;
+  height: 389px;
+}
+
+.gimg5 {
+  width: 390px;
+  height: 389px;
+}
+
+.gimg6 {
+  width: 390px;
+  height: 389px;
+}
+
+.gimg7 {
+  width: 390px;
+  height: 389px;
+}
+
+.gimg8 {
+  width: 390px;
+  height: 389px;
+}
+
+.galeria-container {
+  padding-top: 85px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(1, 2fr);
+  justify-items: center;
+  padding-bottom: 45px;
+  grid-column-gap: 1px;
+  grid-row-gap: 20px;
+}
+
+/*MEDIA QUERIES*/
+/*Tablet*/
+/*Mobile*/
+@media only screen and (max-width: 576px) {
+  /*estilos generales*/
+  header {
+    flex-direction: column;
+  }
+  .logo1 {
+    width: 45%;
+  }
+  .videom1 {
+    width: 245px;
+    height: 455px;
+  }
+  /*Galeria*/
+  .galeria-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
